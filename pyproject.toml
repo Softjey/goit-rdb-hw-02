@@ -1,0 +1,15 @@
+[project]
+name = "goit-rdb-hw-02"
+version = "0.1.0"
+authors = [
+    { name = "Softjey", email = "misivsvatoslav@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "nbconvert>=7.17.2",
+    "pandas>=2.2,<3.1",
+    "pgserver>=0.1.4",
+    "psycopg2-binary>=2.9.13",
+    "sqlalchemy>=2.0,<2.1",
+]
